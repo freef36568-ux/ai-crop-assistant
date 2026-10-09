@@ -1,0 +1,103 @@
+﻿[
+  {
+    "id": "chilli",
+    "name": "Chilli",
+    "localNames": {
+      "en": "Chilli", "te": "మిరప (Chilli)", "hi": "हरी / लाल मिर्च", "ta": "மிளகாய்", "kn": "ಮೆಣಸಿನಕಾಯಿ",
+      "ml": "മുളക്", "mr": "मिरची", "bn": "লঙ্কা", "gu": "મરચાં", "pa": "ਮਿਰਚ", "or": "ଲଙ୍କା", "as": "জলকীয়া", "ur": "مرچ"
+    },
+    "scientificName": "Capsicum annuum",
+    "category": "Spices",
+    "season": "Kharif (June-Oct) / Rabi (Sept-Feb)",
+    "optimalTemperature": "20°C - 30°C",
+    "soilType": "Well-drained sandy loam or black loam with pH 6.5 - 7.5",
+    "waterRequirement": "Medium",
+    "durationDays": "120 - 180 days",
+    "imageUrl": "https://images.unsplash.com/photo-1588252303782-cb80119abd6d?auto=format&fit=crop&w=800&q=80",
+    "growthTips": [
+      "Avoid waterlogging at all stages; chilli roots rot quickly in waterlogged soil.",
+      "Spray Boron 20% @ 1g/L at flowering to prevent blossom drop and boost fruit size.",
+      "Use blue sticky traps for Thrips and yellow sticky traps for Whiteflies."
+    ],
+    "commonDiseases": [
+      {
+        "id": "chilli-leaf-curl",
+        "name": "Chilli Leaf Curl & Murda Disease",
+        "scientificName": "Scirtothrips dorsalis / Begomovirus",
+        "severity": "High",
+        "symptoms": ["Upward curling of leaves (Boat-shape) caused by Thrips", "Downward curling of leaves caused by Mites", "Crinkling, thickening, and brittle leaves with stunted growth"],
+        "causes": ["Hot dry weather followed by humid spells fostering thrip/mite multiplication"],
+        "organicTreatment": ["Spray 10,000 ppm Neem oil (Azadirachtin) @ 2 mL/L water", "Apply Wettable Sulfur 80% WDG @ 3 g/L for mites", "Spray garlic-chilli extract @ 5 mL/L water"],
+        "chemicalTreatment": ["Fipronil 5% SC @ 2 mL/L water for Thrips", "Spiromesifen 22.9% SC @ 1 mL/L water for Mites", "Diafenthiuron 50% WP @ 1.2 g/L"],
+        "prevention": ["Erect barrier crops like 4 rows of Sorghum around field", "Maintain adequate soil moisture with drip irrigation", "Dip seedling roots in Imidacloprid solution before transplanting"]
+      }
+    ]
+  },
+  {
+    "id": "wheat",
+    "name": "Wheat",
+    "localNames": {
+      "en": "Wheat", "te": "గోధుమ (Wheat)", "hi": "गेहूं", "ta": "கோதுமை", "kn": "ಗೋಧಿ",
+      "ml": "ഗോതമ്പ്", "mr": "गहू", "bn": "গম", "gu": "ઘઉં", "pa": "ਕਣਕ", "or": "ଗହମ", "as": "ঘেঁহু", "ur": "گندم"
+    },
+    "scientificName": "Triticum aestivum",
+    "category": "Cereals",
+    "season": "Rabi (November - April)",
+    "optimalTemperature": "15°C - 25°C",
+    "soilType": "Well-drained fertile clay loam or loam",
+    "waterRequirement": "Medium",
+    "durationDays": "110 - 140 days",
+    "imageUrl": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=800&q=80",
+    "growthTips": [
+      "First irrigation at Crown Root Initiation (CRI stage, 21 days after sowing) is most crucial.",
+      "Avoid excess water at maturity to prevent lodging.",
+      "Ensure balanced N-P-K (120:60:40 kg/ha) with Zinc sulfate (25 kg/ha)."
+    ],
+    "commonDiseases": [
+      {
+        "id": "wheat-yellow-rust",
+        "name": "Yellow / Stripe Rust",
+        "scientificName": "Puccinia striiformis",
+        "severity": "High",
+        "symptoms": ["Bright yellow stripe-like pustules arranged in linear rows on leaves", "Yellow powdery spores on hands when rubbing leaves", "Premature leaf drying leading to shriveled grain"],
+        "causes": ["Cool temperatures (10-15°C) with continuous fog or dew in North India"],
+        "organicTreatment": ["Spray Trichoderma viride @ 5g/L water at first sign", "Dust sulfur powder @ 10 kg/acre in calm morning air"],
+        "chemicalTreatment": ["Propiconazole 25% EC (Tilt) @ 1 mL/L water", "Tebuconazole 25.9% EC @ 1 mL/L water"],
+        "prevention": ["Plant rust-resistant varieties (HD-2967, HD-3086, DBW-187, DBW-222)", "Avoid late sowing beyond mid-November"]
+      }
+    ]
+  },
+  {
+    "id": "maize",
+    "name": "Maize (Corn)",
+    "localNames": {
+      "en": "Maize (Corn)", "te": "మొక్కజొన్న (Maize)", "hi": "मक्का", "ta": "மக்காச்சோளம்", "kn": "ಜೋಳ / ಮೆಕ್ಕೆಜೋಳ",
+      "ml": "ചോളം", "mr": "मका", "bn": "ভুট্টা", "gu": "મકાઈ", "pa": "ਮੱਕੀ", "or": "ମକା", "as": "গোমধান", "ur": "مکئی"
+    },
+    "scientificName": "Zea mays",
+    "category": "Cereals",
+    "season": "Kharif, Rabi and Spring",
+    "optimalTemperature": "21°C - 30°C",
+    "soilType": "Deep fertile loam with good organic matter and excellent drainage",
+    "waterRequirement": "Medium",
+    "durationDays": "90 - 110 days",
+    "imageUrl": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=800&q=80",
+    "growthTips": [
+      "Critical irrigation stages are knee-high stage, tasseling, and silking stage.",
+      "Fall Armyworm monitoring must begin from 7 days after germination."
+    ],
+    "commonDiseases": [
+      {
+        "id": "fall-armyworm",
+        "name": "Fall Armyworm (FAW)",
+        "scientificName": "Spodoptera frugiperda",
+        "severity": "High",
+        "symptoms": ["Pin-holes and window pane feeding on young leaves", "Heavy ragged feeding in plant whorl filled with sawdust-like frass", "Larvae with inverted Y mark on head"],
+        "causes": ["Warm temperatures and continuous maize monoculture"],
+        "organicTreatment": ["Application of sand/ash mixture (9:1) or neem cake powder into leaf whorls", "Release Telenomus remus egg parasitoid @ 40,000/acre", "Spray Metarhizium anisopliae @ 5g/L water into whorls"],
+        "chemicalTreatment": ["Chlorantraniliprole 18.5% SC @ 0.4 mL/L into whorl", "Spinetoram 11.7% SC @ 0.5 mL/L water", "Emamectin benzoate 5% SG @ 0.5 g/L water"],
+        "prevention": ["Synchronized community sowing in the region", "Intercrop with pulses like cowpea", "Install FAW pheromone traps @ 5 per acre"]
+      }
+    ]
+  }
+]

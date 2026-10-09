@@ -1,0 +1,126 @@
+﻿[
+  {
+    "id": "rice",
+    "name": "Rice (Paddy)",
+    "localNames": {
+      "en": "Rice (Paddy)", "te": "వరి (Paddy)", "hi": "धान (चावल)", "ta": "நெல்", "kn": "ಭತ್ತ",
+      "ml": "നെല്ല്", "mr": "भात / धान", "bn": "ধান", "gu": "ડાંગર / ચોખા", "pa": "ਝੋਨਾ", "or": "ଧାନ", "as": "ধান", "ur": "دھان / چاول"
+    },
+    "scientificName": "Oryza sativa",
+    "category": "Cereals",
+    "season": "Kharif (June-Nov) / Rabi (Nov-April)",
+    "optimalTemperature": "22°C - 32°C",
+    "soilType": "Clayey loam, alluvial soil with good water retention",
+    "waterRequirement": "High",
+    "durationDays": "110 - 150 days",
+    "imageUrl": "https://images.unsplash.com/photo-1536657464919-892534f60d6e?auto=format&fit=crop&w=800&q=80",
+    "growthTips": [
+      "Maintain 2-5 cm standing water during tillering to panicle initiation.",
+      "Apply neem-coated urea in split doses (basal, tillering, panicle initiation).",
+      "Use certified seeds treated with Carbendazim (2g/kg seed)."
+    ],
+    "commonDiseases": [
+      {
+        "id": "rice-blast",
+        "name": "Rice Blast",
+        "scientificName": "Magnaporthe oryzae",
+        "severity": "High",
+        "symptoms": ["Spindle-shaped spots with grey-white center and brown margin on leaves", "Dark brown lesions at node and neck of panicle", "Premature lodging and empty grains"],
+        "causes": ["High humidity (>90%)", "Excessive nitrogen fertilizer application", "Frequent cloudy days with intermittent rains"],
+        "organicTreatment": ["Spray Pseudomonas fluorescens @ 2.5 kg/ha in 500L water", "Apply 5% Neem Seed Kernel Extract (NSKE) spray", "Avoid stagnant flood water during high humidity"],
+        "chemicalTreatment": ["Tricyclazole 75% WP @ 0.6 g/L water at first sign of leaf spots", "Isoprothiolane 40% EC @ 1.5 mL/L water", "Azoxystrobin 23% SC @ 1 mL/L water"],
+        "prevention": ["Use resistant varieties like Swarna, IR-64, or MTU-1010", "Avoid excessive nitrogen fertilization", "Treat seeds with Tricyclazole before nursery sowing"]
+      },
+      {
+        "id": "bacterial-leaf-blight",
+        "name": "Bacterial Leaf Blight (BLB)",
+        "scientificName": "Xanthomonas oryzae pv. oryzae",
+        "severity": "High",
+        "symptoms": ["Water-soaked lesions turning yellow-white along leaf margins", "Wavy leaf edges curling inwards", "Milky bacterial ooze visible in early morning droplets"],
+        "causes": ["Heavy rains and typhoon winds", "Deep standing water in fields", "Excessive unmeasured nitrogen fertilizer"],
+        "organicTreatment": ["Spray fresh cow dung filtrate (20g/L) + Hing (Asafoetida) spray", "Apply copper-enriched Panchagavya @ 3% dilution", "Drain excess stagnant water for 3 days to aerate roots"],
+        "chemicalTreatment": ["Copper Hydroxide 77% WP @ 2.0 g/L water", "Streptocycline @ 0.1 g/L water combined with Copper Oxychloride @ 2 g/L water"],
+        "prevention": ["Avoid clipping seedlings tip at transplanting", "Maintain balanced N-P-K (especially adequate Potassium)", "Adopt alternate wetting and drying (AWD) irrigation"]
+      }
+    ]
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "localNames": {
+      "en": "Tomato", "te": "టమాటా (Tomato)", "hi": "टमाटर", "ta": "தக்காளி", "kn": "ಟೊಮೆಟೊ",
+      "ml": "തക്കാളി", "mr": "टोमॅटो", "bn": "টমেটো", "gu": "ટામેટા", "pa": "ਟਮਾਟਰ", "or": "ଟମାଟୋ", "as": "বিলাহী", "ur": "ٹماٹر"
+    },
+    "scientificName": "Solanum lycopersicum",
+    "category": "Vegetables",
+    "season": "Year round (Rabi, Kharif, Summer)",
+    "optimalTemperature": "18°C - 27°C",
+    "soilType": "Well-drained sandy loam rich in organic matter (pH 6.0 - 7.0)",
+    "waterRequirement": "Medium",
+    "durationDays": "90 - 130 days",
+    "imageUrl": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=800&q=80",
+    "growthTips": [
+      "Provide sturdy bamboo staking at 30 days after transplanting.",
+      "Mulch with straw or black plastic to prevent soil-borne splash infections.",
+      "Drip irrigation at root level is superior to overhead sprinkler watering."
+    ],
+    "commonDiseases": [
+      {
+        "id": "tomato-early-blight",
+        "name": "Early Blight",
+        "scientificName": "Alternaria solani",
+        "severity": "Medium",
+        "symptoms": ["Concentric dark brown rings on older lower leaves (target board pattern)", "Yellowing halo surrounding the brown rings", "Stem lesions at soil line (collar rot)"],
+        "causes": ["Warm temperatures (24-29°C) accompanied by heavy dew or rains", "Plant stress and potassium deficiency"],
+        "organicTreatment": ["Spray 10% Cow urine + 5% Neem leaf extract spray every 7 days", "Apply Bacillus subtilis @ 5g/L water", "Prune and destroy infected lower leaves immediately"],
+        "chemicalTreatment": ["Mancozeb 75% WP @ 2.5 g/L water", "Chlorothalonil 75% WP @ 2 g/L water", "Difenoconazole 25% EC @ 0.5 mL/L water"],
+        "prevention": ["Practice crop rotation with non-solanaceous crops for 3 years", "Avoid overhead wetting of foliage", "Stake plants upright to keep leaves away from soil"]
+      },
+      {
+        "id": "tomato-leaf-curl",
+        "name": "Tomato Leaf Curl Virus (ToLCV)",
+        "scientificName": "Begomovirus transmitted by Whitefly (Bemisia tabaci)",
+        "severity": "High",
+        "symptoms": ["Severe upward and downward curling and puckering of leaves", "Stunted bushy plant growth with short internodes", "Flower shedding and failure to set fruits"],
+        "causes": ["Whitefly insect population explosion in dry, warm weather"],
+        "organicTreatment": ["Install yellow sticky traps @ 20-25 traps/acre to trap whiteflies", "Spray 5% Neem seed kernel extract (NSKE) or 10,000 ppm Azadirachtin @ 2 mL/L", "Intercrop with barrier crops like maize or sorghum on field borders"],
+        "chemicalTreatment": ["Diafenthiuron 50% WP @ 1.2 g/L water", "Thiamethoxam 25% WG @ 0.4 g/L water", "Acetamiprid 20% SP @ 0.5 g/L water"],
+        "prevention": ["Use silver reflective mulching sheets", "Protect seedlings in nursery with 40-mesh insect-proof nylon nets", "Uproot and bury severely infected viral plants"]
+      }
+    ]
+  },
+  {
+    "id": "cotton",
+    "name": "Cotton",
+    "localNames": {
+      "en": "Cotton", "te": "ప్రత్తి (Cotton)", "hi": "कपास", "ta": "பருத்தி", "kn": "ಹತ್ತಿ",
+      "ml": "പരുത്തി", "mr": "कापूस", "bn": "তুলা", "gu": "કપાસ", "pa": "ਕਪਾਹ", "or": "କପା", "as": "কপাহ", "ur": "کپاس"
+    },
+    "scientificName": "Gossypium hirsutum",
+    "category": "Cash Crops",
+    "season": "Kharif (May - November)",
+    "optimalTemperature": "21°C - 35°C",
+    "soilType": "Deep black cotton soil (Regur), alluvial well-drained loam",
+    "waterRequirement": "Medium",
+    "durationDays": "150 - 180 days",
+    "imageUrl": "https://images.unsplash.com/photo-1594488518065-819777df509c?auto=format&fit=crop&w=800&q=80",
+    "growthTips": [
+      "Do not apply excess nitrogen after flowering to avoid boll rot and excessive vegetative growth.",
+      "Install pheromone traps @ 5 per acre to monitor Pink Bollworm moths.",
+      "Nipping/topping of terminal shoots at 90 days boosts boll development."
+    ],
+    "commonDiseases": [
+      {
+        "id": "cotton-bollworm",
+        "name": "Pink Bollworm & American Bollworm",
+        "scientificName": "Pectinophora gossypiella / Helicoverpa armigera",
+        "severity": "High",
+        "symptoms": ["Rosetted flowers with petals twisted together", "Bored holes on bolls with excreta at the entrance", "Stained fiber and premature boll opening (locule rot)"],
+        "causes": ["Continuous cotton monoculture", "Warm dry weather and lack of timely trap crop management"],
+        "organicTreatment": ["Install 8 Pheromone traps/acre with Gossyplure lures", "Release Trichogramma bactrae egg parasitoids @ 60,000/acre at weekly intervals", "Spray Beauveria bassiana @ 5g/L water in evening hours"],
+        "chemicalTreatment": ["Emamectin Benzoate 5% SG @ 0.5 g/L water", "Spinetoram 11.7% SC @ 1 mL/L water", "Chlorantraniliprole 18.5% SC @ 0.3 mL/L water"],
+        "prevention": ["Strictly terminate crop before January to break pest lifecycle", "Plant non-Bt refuge cotton / castor border rows", "Avoid late-season excessive urea top-dressing"]
+      }
+    ]
+  }
+]

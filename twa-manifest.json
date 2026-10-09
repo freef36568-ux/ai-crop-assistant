@@ -1,0 +1,39 @@
+{
+  "packageId": "com.aicropassistant.app",
+  "host": "aicropassistant.web.app",
+  "name": "AI Crop Assistant",
+  "launcherName": "AI Crop Assistant",
+  "display": "standalone",
+  "orientation": "portrait",
+  "themeColor": "#2874f0",
+  "themeColorDark": "#000000",
+  "navigationColor": "#2874f0",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#00000000",
+  "navigationDividerColorDark": "#00000000",
+  "backgroundColor": "#ffffff",
+  "enableNotifications": false,
+  "startUrl": "/",
+  "iconUrl": "https://aicropassistant.web.app/pwa-512x512.png",
+  "maskableIconUrl": "https://aicropassistant.web.app/pwa-maskable-512x512.png",
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://aicropassistant.web.app/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": false
+    },
+    "playBilling": {
+      "enabled": false
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false
+}

@@ -1,0 +1,101 @@
+﻿[
+  {
+    "id": "onion",
+    "name": "Onion",
+    "localNames": {
+      "en": "Onion", "te": "ఉల్లిపాయ (Onion)", "hi": "प्याज", "ta": "வெங்காயம்", "kn": "ಈರುಳ್ಳಿ",
+      "ml": "ഉള്ളി", "mr": "कांदा", "bn": "পেঁয়াজ", "gu": "ડુંગળી", "pa": "ਪਿਆਜ਼", "or": "ପିଆଜ", "as": "পিয়াঁজ", "ur": "پیاز"
+    },
+    "scientificName": "Allium cepa",
+    "category": "Vegetables",
+    "season": "Kharif, Late Kharif, and Rabi",
+    "optimalTemperature": "15°C - 30°C",
+    "soilType": "Well-drained fertile sandy loam or alluvial soil with pH 6.5 - 7.5",
+    "waterRequirement": "Medium",
+    "durationDays": "100 - 140 days",
+    "imageUrl": "https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=800&q=80",
+    "growthTips": [
+      "Frequent light irrigations are preferred over heavy flooding.",
+      "Stop irrigation 15 days before harvesting and allow tops to fall naturally."
+    ],
+    "commonDiseases": [
+      {
+        "id": "onion-purple-blotch",
+        "name": "Purple Blotch of Onion",
+        scientificName: "Alternaria porri",
+        severity: "High",
+        symptoms: ["Small water-soaked sunken lesions turning purple in center", "Leaves turn yellow and collapse from lesion site", "Neck rot of bulbs in storage"],
+        causes: ["Warm humid weather (25-30°C) with persistent dew"],
+        organicTreatment: ["Spray NSKE 5% + Cow urine 5% every 10 days", "Apply Trichoderma viride @ 5g/L water"],
+        chemicalTreatment: ["Difenoconazole 25% EC @ 1 mL/L water", "Tebuconazole 25.9% EC @ 1 mL/L water", "Mancozeb 75% WP @ 2.5 g/L"],
+        prevention: ["Use disease-free sets / seedlings", "Ensure wide spacing", "Cure bulbs thoroughly in shade before storage"]
+      }
+    ]
+  },
+  {
+    "id": "mango",
+    "name": "Mango",
+    "localNames": {
+      "en": "Mango", "te": "మామిడి (Mango)", "hi": "आम", "ta": "மாம்பழம்", "kn": "ಮಾವು",
+      "ml": "മാങ്ങ", "mr": "आंबा", "bn": "আম", "gu": "કેરી", "pa": "ਅੰਬ", "or": "ଆମ୍ବ", "as": "আম", "ur": "آم"
+    },
+    "scientificName": "Mangifera indica",
+    "category": "Fruits",
+    "season": "Perennial (Flowering Dec-Feb, Harvest April-July)",
+    "optimalTemperature": "24°C - 30°C",
+    "soilType": "Deep, well-drained rich alluvial or red loamy soil (pH 5.5 - 7.5)",
+    "waterRequirement": "Low",
+    "durationDays": "Perennial tree crop",
+    "imageUrl": "https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=800&q=80",
+    "growthTips": [
+      "Stop irrigation 2 months prior to flowering to induce healthy flower bud differentiation.",
+      "Prune dead and criss-cross branches after post-harvest in July-August."
+    ],
+    "commonDiseases": [
+      {
+        "id": "mango-powdery-mildew",
+        "name": "Powdery Mildew & Anthracnose",
+        scientificName: "Oidium mangiferae / Colletotrichum gloeosporioides",
+        severity: "High",
+        symptoms: ["White powdery fungal growth covering floral panicles", "Blossoms turn brown, dry up, and drop", "Black tear-stain lesions on fruits"],
+        causes: ["Cool nights with warm humid days during flowering stage"],
+        organicTreatment: ["Spray Wettable Sulfur 80% WP @ 3g/L before flower opening", "Apply neem oil 10,000 ppm @ 2 mL/L"],
+        chemicalTreatment: ["Hexaconazole 5% SC @ 1.5 mL/L water", "Azoxystrobin 23% SC @ 1 mL/L water"],
+        prevention: ["Prune tree canopy to maximize direct sunlight", "First spray when flower panicles are 3-5 inches long"]
+      }
+    ]
+  },
+  {
+    "id": "banana",
+    "name": "Banana",
+    "localNames": {
+      "en": "Banana", "te": "అరటి (Banana)", hi: "केला", "ta": "வாழை", "kn": "ಬಾಳೆ",
+      "ml": "വാഴ", "mr": "केळी", "bn": "কলা", "gu": "કેળા", "pa": "ਕੇਲਾ", "or": "କଦଳୀ", "as": "কল", "ur": "کیلا"
+    },
+    "scientificName": "Musa acuminata",
+    "category": "Fruits",
+    "season": "Year-round planting",
+    "optimalTemperature": "25°C - 35°C",
+    "soilType": "Deep, fertile, well-drained clay loam with high organic matter",
+    "waterRequirement": "High",
+    "durationDays": "300 - 360 days",
+    "imageUrl": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=800&q=80",
+    "growthTips": [
+      "De-suckering keeps mother plant vigorous and bunches heavy.",
+      "Propping with double bamboo poles protects bunches from storm lodging."
+    ],
+    "commonDiseases": [
+      {
+        "id": "banana-sigatoka",
+        "name": "Sigatoka Leaf Spot",
+        scientificName: "Mycosphaerella musicola",
+        severity: "High",
+        symptoms: ["Small yellowish spindle streaks parallel to leaf veins", "Dark brown elliptical spots with grey centers", "Premature leaf collapse reducing bunch weight"],
+        causes: ["High humidity, warm temperature, and water stagnation"],
+        organicTreatment: ["De-leafing and burying infected leaves outside plantation", "Spray mineral oil 1% emulsion + Trichoderma viride"],
+        chemicalTreatment: ["Propiconazole 25% EC @ 1 mL/L + mineral oil 10 mL/L water", "Tebuconazole 50% WG @ 0.5 g/L water"],
+        prevention: ["Maintain wide spacing for cross ventilation", "Ensure deep drainage ditches around plantation"]
+      }
+    ]
+  }
+]

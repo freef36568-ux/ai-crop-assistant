@@ -1,0 +1,101 @@
+﻿[
+  {
+    "id": "groundnut",
+    "name": "Groundnut (Peanut)",
+    "localNames": {
+      "en": "Groundnut", "te": "వేరుశనగ (Groundnut)", "hi": "मूंगफली", "ta": "நிலக்கடலை", "kn": "ಕಡಲೆಕಾಯಿ",
+      "ml": "നിലക്കടല", "mr": "भुईमूग", "bn": "চীনাবাদাম", "gu": "મગફળી", "pa": "ਮੂੰਗਫਲੀ", "or": "ଚିନାବାଦାମ", "as": "বাদাম", "ur": "مونگ پھلی"
+    },
+    "scientificName": "Arachis hypogaea",
+    "category": "Pulses",
+    "season": "Kharif (June-Oct) / Rabi (Nov-March)",
+    "optimalTemperature": "25°C - 30°C",
+    "soilType": "Light sandy loam, well-drained red sandy soil with loose texture",
+    "waterRequirement": "Medium",
+    "durationDays": "105 - 125 days",
+    "imageUrl": "https://images.unsplash.com/photo-1567892323490-67c4d5162a87?auto=format&fit=crop&w=800&q=80",
+    "growthTips": [
+      "Apply Gypsum @ 200 kg/acre at 40-45 days (pegging stage) for healthy pod filling and shell hardness.",
+      "Treat seeds with Rhizobium and Trichoderma cultures before sowing."
+    ],
+    "commonDiseases": [
+      {
+        "id": "groundnut-tikka",
+        "name": "Tikka Disease (Leaf Spot)",
+        "scientificName": "Cercospora arachidicola",
+        "severity": "Medium",
+        "symptoms": ["Circular reddish-brown with prominent yellow halo", "Dark brown to black spots on underside of leaf", "Severe defoliation leaving stems bare"],
+        "causes": ["High humidity (>85%) with temperatures around 25-30°C"],
+        "organicTreatment": ["Spray 3% Panchagavya + 5% NSKE at 15-day intervals", "Soil application of Trichoderma viride enriched FYM"],
+        "chemicalTreatment": ["Hexaconazole 5% SC @ 2 mL/L water", "Carbendazim 12% + Mancozeb 63% WP @ 1.5 g/L"],
+        "prevention": ["Crop rotation with non-leguminous crops", "Proper seed treatment with Thiram + Carbendazim (1:1)"]
+      }
+    ]
+  },
+  {
+    "id": "sugarcane",
+    "name": "Sugarcane",
+    "localNames": {
+      "en": "Sugarcane", "te": "చెరకు (Sugarcane)", "hi": "गन्ना", "ta": "கரும்பு", "kn": "ಕಬ್ಬು",
+      "ml": "കരിമ്പ്", "mr": "ऊस", "bn": "আখ", "gu": "શેરડી", "pa": "ਗੰਨਾ", "or": "ଆଖୁ", "as": "কুঁহিয়াৰ", "ur": "گنا"
+    },
+    "scientificName": "Saccharum officinarum",
+    "category": "Cash Crops",
+    "season": "Autumn / Spring / Adsali",
+    "optimalTemperature": "20°C - 35°C",
+    "soilType": "Deep rich loam, black soil with good drainage and water table > 1.5m",
+    "waterRequirement": "High",
+    "durationDays": "300 - 360 days",
+    "imageUrl": "https://images.unsplash.com/photo-1589135233689-d49fa211d044?auto=format&fit=crop&w=800&q=80",
+    "growthTips": [
+      "Trash mulching between cane rows conserves moisture and suppresses weed growth.",
+      "Earthing up at 90 and 120 days prevents lodging during monsoon storms."
+    ],
+    "commonDiseases": [
+      {
+        "id": "sugarcane-red-rot",
+        "name": "Red Rot of Sugarcane",
+        scientificName: "Colletotrichum falcatum",
+        severity: "High",
+        symptoms: ["Third or fourth leaf from top shows yellowing and withering", "Split open stalks show reddened internal tissues with white transverse bands", "Fermentation sour odor from affected canes"],
+        causes: ["Infected seed setts and waterlogged soil conditions"],
+        organicTreatment: ["Hot water sett treatment (50°C for 2 hours)", "Apply Trichoderma viride enriched pressmud @ 2 tonnes/acre"],
+        chemicalTreatment: ["Carbendazim 50% WP @ 1 g/L sett dip treatment for 15 minutes before planting"],
+        prevention: ["Use certified disease-free nursery seed setts", "Do not ratoon severely infected sugarcane fields", "Ensure proper field drainage"]
+      }
+    ]
+  },
+  {
+    "id": "potato",
+    "name": "Potato",
+    "localNames": {
+      "en": "Potato", "te": "బంగాళాదుంప (Potato)", "hi": "आलू", "ta": "உருளைக்கிழங்கு", "kn": "ಆಲೂಗಡ್ಡೆ",
+      "ml": "ഉരുളക്കിഴങ്ങ്", "mr": "बटाटा", "bn": "আলু", "gu": "બટાકા", "pa": "ਆਲੂ", "or": "ଆଳୁ", "as": "আলু", "ur": "آلو"
+    },
+    "scientificName": "Solanum tuberosum",
+    "category": "Vegetables",
+    "season": "Rabi (Oct - March)",
+    "optimalTemperature": "16°C - 24°C",
+    "soilType": "Loose, friable sandy loam rich in humus (pH 5.5 - 6.5)",
+    "waterRequirement": "Medium",
+    "durationDays": "80 - 110 days",
+    "imageUrl": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=800&q=80",
+    "growthTips": [
+      "Earthing up at 30 days after planting is crucial to prevent greening of tubers by sunlight.",
+      "Stop irrigation 10-12 days before harvest to harden the tuber skin."
+    ],
+    "commonDiseases": [
+      {
+        "id": "potato-late-blight",
+        "name": "Late Blight of Potato",
+        scientificName: "Phytophthora infestans",
+        severity: "High",
+        symptoms: ["Water-soaked dark lesions on leaf tips and margins", "White mildew growth on leaf undersides in morning dew", "Decaying tubers with reddish-brown dry rot"],
+        causes: ["High humidity (>90%) with cool temperature (15-20°C)"],
+        organicTreatment: ["Bordeaux mixture 1% spray before onset of foggy weather", "Bio-fungicide Pseudomonas fluorescens @ 5g/L"],
+        chemicalTreatment: ["Cymoxanil 8% + Mancozeb 64% WP @ 2.5 g/L", "Dimethomorph 50% WP @ 1 g/L water"],
+        prevention: ["Plant certified seed tubers (Kufri Pukhraj, Kufri Jyoti)", "Dehaulm (cut foliage) 10 days before harvesting"]
+      }
+    ]
+  }
+]

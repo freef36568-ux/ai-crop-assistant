@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.aicropassistant.app",
+      "sha256_cert_fingerprints": [
+        "B8:7F:52:66:2D:EF:C3:0D:55:0F:E5:1A:D6:80:F0:94:71:51:CF:08:C4:24:94:C3:FA:08:42:C6:38:6F:73:C3"
+      ]
+    }
+  }
+]
