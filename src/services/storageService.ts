@@ -1,4 +1,4 @@
-﻿import { AnalysisResult, LanguageCode, UserProfile } from '../types';
+import { AnalysisResult, LanguageCode, UserProfile } from '../types';
 import { supabase, isSupabaseConfigured } from '../lib/supabase';
 import { db } from '../lib/firebase';
 import {
@@ -13,7 +13,7 @@ import {
   writeBatch,
 } from 'firebase/firestore';
 
-const EXPRESS_API_URL = `${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/api`;
+const EXPRESS_API_URL = import.meta.env.VITE_API_URL ? `${import.meta.env.VITE_API_URL}/api` : '/api';
 const FIRESTORE_ANALYSES_COLLECTION = 'analyses';
 const LOCAL_STORAGE_KEY_HISTORY = 'cropwise_analysis_history';
 const LOCAL_STORAGE_KEY_PROFILE = 'cropwise_user_profile';

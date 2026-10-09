@@ -49,3 +49,5 @@ app.use(errorHandler);
 app.listen(PORT, () => {
   console.log(`✅ AI Crop Assistant Express REST API Backend running on http://localhost:${PORT}`);
 });
+
+export default app;
